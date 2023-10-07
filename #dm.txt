@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+enum Gender { male=1,female}
+
+class CPerson {
+	string name,egn;
+	Gender gend;
+	public:
+	
+	void SetName(const string& str) { name=str;}
+	
+	void SetEGN(const string& str) {
+		egn=str;}
+		
+		void SetGender(Gender gen) {
+			cout<<"/nSelect gender:1.Male\2.Female/n3.Other";
+			cin>>gen;
+			switch(gen) { 
+			case 1: gen=
+		string GetName()const { return name;}
+		
+		string GetEGN()const { return egn;}
+		
+		
+	CPerson() : name("N/A"),egn("8888"){}
+	
+	
+	CPerson(const string& _name,const string& _egn) : name(_name),egn(_egn){}
+	
+};
+	int main()
+	{
+		
+
+
+		return 0;
+	}

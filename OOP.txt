@@ -1,0 +1,4 @@
+Abstraction is showing the important info, without showing the details
+Inheritence is derive properties and characteristics from another class
+Polymorphism is having many forms -> Having the ability to  display a single message in more than 1 form
+Encapsulation is putting together data and functions that manipulates them .
